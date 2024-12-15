@@ -6,6 +6,7 @@ document.querySelector(".intro").addEventListener("click",function(){
 
 document.querySelector(".abtme").addEventListener("click",function(){
     document.querySelector(".intro").classList.remove("focus")
+    document.querySelector(".pro").classList.remove("focus")
     document.querySelector(".abtme").classList.add("focus")  
     content=document.querySelector(".secondary")
     content.innerHTML='\n           \n\n        <div class="newdiv1 pop"><div class="d1"><h3>skills</h3><p class="pari">yet to be build</p></div><div class="d2"><h3>proffeciency</h3><p class="pari">not a proffesional till date</p></div><div class="d3"><h3>hobbies</h3><p class="pari">it changes with time</p></div></div>'
@@ -25,7 +26,8 @@ document.querySelector(".abtme").addEventListener("click",function(){
 )
 
 function karthik(){
-    document.querySelector(".abtme").classList.remove("focus") 
+    document.querySelector(".abtme").classList.remove("focus")
+    document.querySelector(".pro").classList.remove("focus") 
    content=document.querySelector(".secondary")
    document.querySelector(".intro").classList.add("focus")
    content.innerHTML='\n           \n\n        <div class="newdiv pop "><div class="hr1"><img  src="./user.png" class="img"></div><div class="hr2"><p class="newpara"><span class="hi">Hi Iam</hi></br><span class="karthik "> Karthik</span></br><span class="stu">Student of CSE</span></p></p><div class="bdiv"><button class="btn pop3">Contact</button><button class="btn pop3">hire me</button></div></div></div>'
